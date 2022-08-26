@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Allblog from "../components/Allblog/Allblog";
 import Events from "../components/Events/Events";
 import Footer from "../components/Footer/Footer";
 import Heroarea from "../components/Heroarea/Heroarea";
@@ -22,6 +23,7 @@ export default function Home() {
       <Events/>
       <Subscribe/>
       <Footer/>
+      
     </div>
   );
 }

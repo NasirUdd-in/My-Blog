@@ -4,20 +4,20 @@ import React from "react";
 const Heroarea = () => {
   return (
     <div>
-     <section className="relative bg-white">
-  <img
+     <section className="relative bg-[url('/pictwo.jpg')] bg-cover h-500 w-500">
+  {/* <img
     className="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
-    src="https://images.unsplash.com/photo-1601758003122-53c40e686a19"
+    src="https://unsplash.com/photos/Hcfwew744z4"
     alt="Couple on a bed with a dog"
-  />
-
-  <div className="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
+  /> */}
+  {/* <Image src="/picone.jpg" alt="Vercel Logo" width={500} height={500} /> */}
+  <div className="hidden sm:block sm:inset-0 sm:sabsolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
 
   <div className="relative max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
     <div className="max-w-xl text-center sm:text-left">
       <h1 className="text-3xl font-extrabold sm:text-5xl">
-        Let us find your
-        <strong className="font-extrabold text-rose-700 sm:block">
+        RESOURCES
+        <strong className="font-extrabold text-blue-900 mt-6 sm:block">
           Forever Home.
         </strong>
       </h1>
@@ -27,11 +27,11 @@ const Heroarea = () => {
       </p>
 
       <div className="flex flex-wrap gap-4 mt-8 text-center">
-        <a className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
+        <a className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-blue-900 sm:w-auto active:bg-blue-900 hover:bg-blue-900 focus:outline-none focus:ring" href="/get-started">
           Get Started
         </a>
 
-        <a className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring" href="/about">
+        <a className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-blue-900 sm:w-auto hover:text-blue-900 active:text-blue-900 focus:outline-none focus:ring" href="/about">
           Learn More
         </a>
       </div>
