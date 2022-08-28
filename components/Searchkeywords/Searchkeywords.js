@@ -74,7 +74,7 @@ const Searchkeywords = () => {
         </Grid>
         <Grid item xs={3}>
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Topics</InputLabel>
+            <InputLabel id="demo-simple-select-label">Category</InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
@@ -82,12 +82,13 @@ const Searchkeywords = () => {
               label="Age"
               onChange={handleChange}
             >
-              <MenuItem value="frontend">Frontend</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
+              <MenuItem value="it">IT</MenuItem>
+              <MenuItem value="Marketing">Marketing</MenuItem>
+              <MenuItem value="finance">Finanace</MenuItem>
             </Select>
           </FormControl>
         </Grid>
+        
         <Grid item xs={9}>
        
         </Grid>

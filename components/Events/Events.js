@@ -1,158 +1,83 @@
-import React from "react";
+import React from 'react';
+import { useState, useEffect } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import SingleEvent from '../SingleEvent/SingleEvent';
+
 
 const Events = () => {
+
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
+  const [events, setEvents] = useState([]);
+
+  useEffect(() => {
+    let url = "/Events.json";
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => setEvents(data));
+  }, []);
+
   return (
+    <div className="container mx-auto px-6 bg-stone-200">
+    <h1>Events</h1>
+    <h6 className="mt-4">
+      {" "}
+      Dive in to some new exciting Topics or learn about what our software has
+      to offer. Oh, and please let use know if you'd like us to cover anything
+      else.
+    </h6>
     <div>
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/swiper/swiper-bundle.min.css"
-      />
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     
+      <div className="mt-5 mb-10 ">
+      <Slider {...settings}>
+       
+        {events.map((event) => (
+       <SingleEvent event={event}></SingleEvent>
+      ))}
+       
+      </Slider>
 
-      <section>
-        <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
-          <div class="text-center">
-            <h2 class="text-lg font-bold">Special Offers</h2>
-
-            <p class="text-2xl font-medium text-indigo-600">
-              Best Prices for Gadgets
-            </p>
-          </div>
-
-          <div class="mt-8 swiper">
-            <ul class="swiper-wrapper">
-              <li class="swiper-slide">
-                <a href="/product/smart-watch" class="block">
-                  <div>
-                    <p class="text-xs text-indigo-500">Banana</p>
-
-                    <h5 class="font-bold">Smart Watch</h5>
-                  </div>
-
-                  <div class="aspect-w-1 aspect-h-1">
-                    <img
-                      loading="lazy"
-                      alt="Smart Watch"
-                      class="object-cover"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-                    />
-                  </div>
-
-                  <p class="mt-1 text-sm font-medium text-gray-700">$49.99</p>
-                </a>
-              </li>
-
-              <li class="swiper-slide">
-                <a href="/product/smart-watch" class="block">
-                  <div>
-                    <p class="text-xs text-indigo-500">Banana</p>
-
-                    <h5 class="font-bold">Smart Watch</h5>
-                  </div>
-
-                  <div class="aspect-w-1 aspect-h-1">
-                    <img
-                      loading="lazy"
-                      alt="Smart Watch"
-                      class="object-cover"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-                    />
-                  </div>
-
-                  <p class="mt-1 text-sm font-medium text-gray-700">$49.99</p>
-                </a>
-              </li>
-
-              <li class="swiper-slide">
-                <a href="/product/smart-watch" class="block">
-                  <div>
-                    <p class="text-xs text-indigo-500">Banana</p>
-
-                    <h5 class="font-bold">Smart Watch</h5>
-                  </div>
-
-                  <div class="aspect-w-1 aspect-h-1">
-                    <img
-                      loading="lazy"
-                      alt="Smart Watch"
-                      class="object-cover"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-                    />
-                  </div>
-
-                  <p class="mt-1 text-sm font-medium text-gray-700">$49.99</p>
-                </a>
-              </li>
-
-              <li class="swiper-slide">
-                <a href="/product/smart-watch" class="block">
-                  <div>
-                    <p class="text-xs text-indigo-500">Banana</p>
-
-                    <h5 class="font-bold">Smart Watch</h5>
-                  </div>
-
-                  <div class="aspect-w-1 aspect-h-1">
-                    <img
-                      loading="lazy"
-                      alt="Smart Watch"
-                      class="object-cover"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-                    />
-                  </div>
-
-                  <p class="mt-1 text-sm font-medium text-gray-700">$49.99</p>
-                </a>
-              </li>
-
-              <li class="swiper-slide">
-                <a href="/product/smart-watch" class="block">
-                  <div>
-                    <p class="text-xs text-indigo-500">Banana</p>
-
-                    <h5 class="font-bold">Smart Watch</h5>
-                  </div>
-
-                  <div class="aspect-w-1 aspect-h-1">
-                    <img
-                      loading="lazy"
-                      alt="Smart Watch"
-                      class="object-cover"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-                    />
-                  </div>
-
-                  <p class="mt-1 text-sm font-medium text-gray-700">$49.99</p>
-                </a>
-              </li>
-
-              <li class="swiper-slide">
-                <a href="/product/smart-watch" class="block">
-                  <div>
-                    <p class="text-xs text-indigo-500">Banana</p>
-
-                    <h5 class="font-bold">Smart Watch</h5>
-                  </div>
-
-                  <div class="aspect-w-1 aspect-h-1">
-                    <img
-                      loading="lazy"
-                      alt="Smart Watch"
-                      class="object-cover"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-                    />
-                  </div>
-
-                  <p class="mt-1 text-sm font-medium text-gray-700">$49.99</p>
-                </a>
-              </li>
-            </ul>
-
-            <div class="mt-12 swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
+    <div className='flex  justify-center items-center'>
+   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">View all Events</button>
+    </div>
+  </div>
   );
 };
 
