@@ -67,7 +67,7 @@ const Events = () => {
       <Slider {...settings}>
        
         {events.map((event) => (
-       <SingleEvent event={event}></SingleEvent>
+       <SingleEvent event={event} key={event.id}></SingleEvent>
       ))}
        
       </Slider>

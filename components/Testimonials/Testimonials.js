@@ -66,7 +66,7 @@ const Testimonials = () => {
         <Slider {...settings}>
          
           {books.map((book) => (
-         <SingleBook book={book}></SingleBook>
+         <SingleBook book={book} key={book.id}></SingleBook>
         ))}
          
         </Slider>

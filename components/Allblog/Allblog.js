@@ -15,7 +15,7 @@ const Allblog = ({ age }) => {
   const result = blogs.filter((blog) => blog.topics === age);
 
   return (
-    <div className="flex  justify-center items-center">
+    <div className=" flex  justify-center items-center">
       {/* <ul>
         {result.map((post) => (
           <li>{post.title}</li>
@@ -23,7 +23,7 @@ const Allblog = ({ age }) => {
       </ul> */}
       
       {result.map((post) => (
-          <Singleblog post={post}></Singleblog>
+          <Singleblog post={post} key={id}></Singleblog>
         ))}
 
    

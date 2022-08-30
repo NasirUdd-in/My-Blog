@@ -1,28 +1,32 @@
 import React from "react";
 
-const Singleblog = ({post}) => {
+const Singleblog = ({ post }) => {
   return (
-    <div className="mr-5">
-      <a href="" className="block overflow-hidden rounded-2xl">
-        <img
-          className="object-cover w-full h-56"
-          src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-          alt=""
-        />
-
-        <div className="p-4 bg-gray-900">
-          <p className="text-xs text-gray-500">{post.topics}</p>
-
-          <h5 className="text-sm text-white">
-            How to position your furniture for positivity
-          </h5>
-
-          <p className="mt-1 text-xs text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-            nobis aliquid accusamus? Sint, sequi voluptas.
-          </p>
+    <div classNameName="mr-5">
+      <div className="flex justify-center">
+        <div className="rounded-lg shadow-lg bg-white max-w-sm">
+          <a href="#!">
+            <img
+              className="rounded-t-lg"
+              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+              alt=""
+            />
+          </a>
+          <div className="p-6">
+            <h5 className="text-gray-900 text-xl font-medium mb-2">{post.title}</h5>
+            <p className="text-gray-700 text-base mb-4">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button
+              type="button"
+              className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              See More
+            </button>
+          </div>
         </div>
-      </a>
+      </div>
     </div>
   );
 };

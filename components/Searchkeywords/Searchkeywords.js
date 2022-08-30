@@ -16,7 +16,7 @@ const Searchkeywords = () => {
     setAge(event.target.value);
   };
   return (
-    <Container maxWidth="md">
+   <Container>
     <Box sx={{ mt: 7, mb: 7 }}>
       <Grid container rowSpacing={5} columnSpacing={{ xs: 1, sm: 2, md: 4 }}>
         <Grid item xs={3}>
@@ -102,6 +102,7 @@ const Searchkeywords = () => {
      
     </Box>
     </Container>
+   
   );
 };
 
