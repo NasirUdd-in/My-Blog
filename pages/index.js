@@ -21,6 +21,7 @@ export default function Home() {
       <Singlearticle/>
       <Testimonials/>
       <Events/>
+      
       <Subscribe/>
       <Footer/>
       
