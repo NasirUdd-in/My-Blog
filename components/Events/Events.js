@@ -58,7 +58,7 @@ const Events = () => {
     <h6 className="mt-4">
       {" "}
       Dive in to some new exciting Topics or learn about what our software has
-      to offer. Oh, and please let use know if you'd like us to cover anything
+      to offer. Oh, and please let use know if youd like us to cover anything
       else.
     </h6>
     <div>

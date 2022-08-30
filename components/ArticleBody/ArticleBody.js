@@ -15,7 +15,7 @@ const ArticleBody = () => {
         ARTICLE
       </h6>
       <h1 className="text-2xl font-bold mb-5">
-        How did van Gogh's Turbulent MInd Depict One of the MOst Complex Concept
+        How did van Goghs Turbulent MInd Depict One of the MOst Complex Concept
         in physics?
       </h1>
       <p className="font-light inline">By Laly Liy on {formatDate} </p>

@@ -12,13 +12,13 @@ const Singleblog = ({ post }) => {
               src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
               alt=""
             /> */}
-            <Image></Image>
+            {/* <Image></Image> */}
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">{post.title}</h5>
             <p className="text-gray-700 text-base mb-4">
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the cards content.
             </p>
             <button
               type="button"

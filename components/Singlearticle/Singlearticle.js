@@ -8,7 +8,7 @@ const Singlearticle = () => {
     <div className="container mx-auto">
       <div className="grid grid-cols-2 gap-2">
         <div>
-          <Image src="/picfour.jpg" width="500" height="500" />
+          <Image src="/picfour.jpg" alt="nasir" width="500" height="500" />
         </div>
         <div>
           <p>{formatDate}</p>

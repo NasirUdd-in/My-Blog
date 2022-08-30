@@ -5,7 +5,7 @@ const Author = () => {
   return (
     <div>
       <h1>About the author</h1>
-      <Image></Image>
+      {/* <Image></Image> */}
       <h2>Katy Liu</h2>
 
       <p>
