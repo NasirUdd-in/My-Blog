@@ -23,7 +23,7 @@ const Allblog = ({ age }) => {
       </ul> */}
       
       {result.map((post) => (
-          <Singleblog post={post} key={id}></Singleblog>
+          <Singleblog post={post} key={post.id}></Singleblog>
         ))}
 
    

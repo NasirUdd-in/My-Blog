@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Singleblog = ({ post }) => {
@@ -6,11 +7,12 @@ const Singleblog = ({ post }) => {
       <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-sm">
           <a href="#!">
-            <img
+            {/* <img
               className="rounded-t-lg"
               src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
               alt=""
-            />
+            /> */}
+            <Image></Image>
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">{post.title}</h5>

@@ -55,16 +55,16 @@ const ArticleBody = () => {
 
       <h1 className="xl mt-10 mb-5 font-bold text-xl">Article tags</h1>
 
-      <button class="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
+      <button className="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
         Graphic Design
       </button>
-      <button class="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
+      <button className="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
         Magento
       </button>
-      <button class="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
+      <button className="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
         Project Management
       </button>
-      <button class="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
+      <button className="mb-5 mr-2 py-2 px-4 border-2 border-slate-300 rounded">
         Marketing
       </button>
       </div>
