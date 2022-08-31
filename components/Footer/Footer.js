@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-white dark:bg-gray-800">
+      <footer className="bg-indigo-900 dark:bg-gray-800 pt-10 pb-5">
         <div className="container px-6 py-4 mx-auto">
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">
@@ -11,13 +11,13 @@ const Footer = () => {
                 <div>
                   <a
                     href="#"
-                    className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+                    className="text-xl font-bold text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
                   >
-                    Brand
+                    Marshmallow Blog
                   </a>
                 </div>
 
-                <p className="max-w-md mt-2 text-gray-500 dark:text-gray-400">
+                <p className="max-w-md mt-2 text-white">
                   Join 31,000+ other and never miss out on new tips, tutorials,
                   and more.
                 </p>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="flex mt-4 -mx-2">
                   <a
                     href="#"
-                    className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                    className="mx-2 text-white  hover:text-white dark:hover:text-gray-400"
                     aria-label="Linkden"
                   >
                     <svg className="w-4 h-4 fill-current" viewBox="0 0 512 512">
@@ -35,7 +35,7 @@ const Footer = () => {
 
                   <a
                     href="#"
-                    className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                    className="mx-2 text-white dark:text-gray-200 hover:text-white dark:hover:text-gray-400"
                     aria-label="Facebook"
                   >
                     <svg className="w-4 h-4 fill-current" viewBox="0 0 512 512">
@@ -45,7 +45,7 @@ const Footer = () => {
 
                   <a
                     href="#"
-                    className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+                    className="mx-2 text-white dark:text-gray-200 hover:text-white dark:hover:text-gray-400"
                     aria-label="Twitter"
                   >
                     <svg className="w-4 h-4 fill-current" viewBox="0 0 512 512">
@@ -59,81 +59,81 @@ const Footer = () => {
             <div className="mt-6 lg:mt-0 lg:flex-1">
               <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-white">About</h3>
+                  <h3 className="text-white uppercase dark:text-white">About</h3>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Company
                   </a>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     community
                   </a>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Careers
                   </a>
                 </div>
 
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-white">Blog</h3>
+                  <h3 className="text-white uppercase dark:text-white">Blog</h3>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Tec
                   </a>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Music
                   </a>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Videos
                   </a>
                 </div>
 
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-white">
+                  <h3 className="text-white uppercase dark:text-white">
                     Products
                   </h3>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Mega cloud
                   </a>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Aperion UI
                   </a>
                   <a
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline"
                   >
                     Meraki UI
                   </a>
                 </div>
 
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-white">
+                  <h3 className="text-white uppercase dark:text-white">
                     Contact
                   </h3>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                  <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">
                     +1 526 654 8965
                   </span>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                  <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">
                     example@email.com
                   </span>
                 </div>
@@ -141,10 +141,10 @@ const Footer = () => {
             </div>
           </div>
 
-          <hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700" />
+          <hr className="h-px my-6 bg-white border-none dark:bg-gray-700" />
 
           <div>
-            <p className="text-center text-gray-800 dark:text-white">
+            <p className="text-center text-white dark:text-white">
               © Brand 2020 - All rights reserved
             </p>
           </div>

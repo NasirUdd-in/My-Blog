@@ -93,7 +93,7 @@ const Searchkeywords = () => {
        
         </Grid>
         <Grid item xs={3}>
-        <Button variant="outlined">Clear all filters</Button>
+        <Button variant="outlined" size="large" color="secondary">Clear all filters</Button>
         </Grid>
       </Grid>
       <Box sx={{ mt: 7, mb: 7 }}>

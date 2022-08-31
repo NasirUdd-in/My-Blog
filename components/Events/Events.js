@@ -54,7 +54,7 @@ const Events = () => {
 
   return (
     <div className="container mx-auto  px-6">
-    <h1>Events</h1>
+    <h1 className="text-4xl font-semibold ">Events</h1>
     <h6 className="mt-4">
       {" "}
       Dive in to some new exciting Topics or learn about what our software has
@@ -75,7 +75,7 @@ const Events = () => {
       </div>
     </div>
     <div className='flex  justify-center items-center'>
-   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">View all Events</button>
+   <button className=" hover:bg-blue-700 text-indigo-600 font-bold py-2 px-10 border border-indigo-600 rounded">View all Events</button>
     </div>
   </div>
   );

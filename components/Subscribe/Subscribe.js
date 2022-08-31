@@ -1,16 +1,21 @@
-import React from 'react';
+import React from "react";
 
 const Subscribe = () => {
-    return (
+  return (
+    <div>
+      <div className="container  mx-auto  my-28 grid grid-cols-2 gap-4">
         <div>
-            
-    <footer className="flex justify-center px-4 text-gray-800 bg-white dark:text-white dark:bg-gray-800">
-        <div className="container py-6">
-            <h1 className="text-lg font-bold text-center lg:text-2xl">
-                Join 31,000+ other and never miss <br/> out on new tips, tutorials, and more.
-            </h1>
-
-            <div className="flex justify-center mt-6">
+          <p className="text-xl font-thin">COLLABORATIVE WORK MANAGEMENT</p>
+          <h1 className="text-6xl font-bold mt-5">Stay Connected</h1>
+        </div>
+        <div>
+          <p>
+            In pulishing and graphic design.Front-end web development, also
+            known as client-side development is the practice of producing HTML,
+            CSS and JavaScript for a website or Web Application so that a user
+            can see and interact with them directly. 
+          </p>
+          <div className="flex mt-6">
                 <div className="bg-white border rounded-md focus-within:ring dark:bg-gray-800 dark:border-gray-600 focus-within:border-blue-400 focus-within:ring-blue-300 focus-within:ring-opacity-40 dark:focus-within:border-blue-300">
                     <div className="flex flex-wrap justify-between md:flex-row">
                         <input type="email" className="p-2 m-1 text-sm text-gray-700 bg-transparent appearance-none focus:outline-none focus:placeholder-transparent" placeholder="Enter your email" aria-label="Enter your email"/>
@@ -18,27 +23,10 @@ const Subscribe = () => {
                     </div>
                 </div>
             </div>
-
-            <hr className="h-px mt-6 border-gray-300 border-none dark:bg-gray-700"/>
-
-            <div className="flex flex-col items-center justify-between mt-6 md:flex-row">
-                <div>
-                    <a href="#" className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Brand</a>
-                </div>
-
-                <div className="flex mt-4 md:m-0">
-                    <div className="-mx-4">
-                        <a href="#" className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline">About</a>
-                        <a href="#" className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline">Blog</a>
-                        <a href="#" className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline">News</a>
-                        <a href="#" className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline">Contact</a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </footer>
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Subscribe;
