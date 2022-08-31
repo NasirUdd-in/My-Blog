@@ -52,8 +52,8 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-6 bg-stone-200">
-      <h1>Books & Downloads</h1>
+    <div className="container mx-auto px-6 ">
+      <h1 className="text-4xl font-semibold ">Books & Downloads</h1>
       <h6 className="mt-4">
         {" "}
         Dive in to some new exciting Topics or learn about what our software has
@@ -61,8 +61,8 @@ const Testimonials = () => {
         else.
       </h6>
       <div>
-        <h2> Single Item</h2>
-        <div className="mt-5 mb-10 ">
+  
+        <div className="mt-10 mb-10 ">
         <Slider {...settings}>
          
           {books.map((book) => (

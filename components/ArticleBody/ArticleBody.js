@@ -40,7 +40,7 @@ const ArticleBody = () => {
         industry standard technologies including transparent gifs to help us
         monitor and improve our communications.
       </p>
-      <Image></Image>
+      {/* <Image></Image> */}
 
       <p className="mt-10">
         The University of Warwick uses the information that you provide on this

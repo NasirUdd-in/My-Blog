@@ -1,14 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import Moment from "moment";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 const Singlearticle = () => {
   const formatDate = Moment().format("MMM Do YY");
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-2 gap-2">
+    <div className="container mx-auto p-2">
+      <div className="grid md:grid-cols-2 gap-2">
         <div>
-          <Image src="/picfour.jpg" alt="nasir" width="500" height="500" />
+          <Image src="/picfour.jpg" alt="nasir" width="650" height="500" />
         </div>
         <div>
           <p>{formatDate}</p>
@@ -28,8 +29,10 @@ const Singlearticle = () => {
           <h6 className="lg:my-5 text-indigo-600">Read More</h6>
         </div>
       </div>
-      <div className="flex  justify-center items-center my-4">
-        View all articles
+      <div className="flex  justify-center text-indigo-600 items-center my-6">
+        <div className="mr-5 text-2xl"><FiArrowRightCircle/></div>
+        
+       <h1>View all articles</h1> 
       </div>
     </div>
   );

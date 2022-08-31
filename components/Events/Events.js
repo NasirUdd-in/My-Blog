@@ -53,7 +53,7 @@ const Events = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-6 bg-stone-200">
+    <div className="container mx-auto  px-6">
     <h1>Events</h1>
     <h6 className="mt-4">
       {" "}
@@ -63,7 +63,7 @@ const Events = () => {
     </h6>
     <div>
      
-      <div className="mt-5 mb-10 ">
+      <div className="mt-12 mb-10 ">
       <Slider {...settings}>
        
         {events.map((event) => (

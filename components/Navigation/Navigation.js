@@ -6,7 +6,7 @@ const Navigation = () => {
     <div>
       <header className="bg-white">
         <div className="flex items-center h-16 px-4 mx-auto max-w-screen-xl gap-8 sm:px-6 lg:px-8">
-          <a className="block text-indigo-600" href="/">
+          <a className="block text-indigo-600" href="#">
             <span className="sr-only">Home</span>
             <svg
               className="h-8"
@@ -31,7 +31,7 @@ const Navigation = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#"
                   >
                     COMPANY
                   </a>
@@ -40,7 +40,7 @@ const Navigation = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#"
                   >
                     SERVICES
                   </a>
@@ -49,7 +49,7 @@ const Navigation = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#"
                   >
                     PRICING
                   </a>
@@ -58,7 +58,7 @@ const Navigation = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#"
                   >
                     RESOURCES
                   </a>
@@ -67,7 +67,7 @@ const Navigation = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#"
                   >
                     ENTERPRISE
                   </a>
@@ -82,14 +82,14 @@ const Navigation = () => {
                
                 <a
                   className="block px-5 py-2.5 text-sm font-medium text-indigo-600  transition rounded-md"
-                  href="/"
+                  href="#"
                 >
                   LOG IN
                 </a>
 
                 <a
                   className="hidden sm:block px-5 py-2.5 text-sm font-medium text-indigo-600 bg-gray-100 rounded-md  transition"
-                  href="/"
+                  href="#"
                 >
                   CONTACT SALES
                 </a>

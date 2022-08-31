@@ -30,10 +30,6 @@ const Heroarea = () => {
         <a className="block w-full px-12 py-3 text-sm font-medium text-indigo-900 rounded shadow bg-white sm:w-auto  hover:border-current focus:outline-none focus:ring" href="#">
           Get Started
         </a>
-
-        <a className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-indigo-900 sm:w-auto hover:text-blue-900 active:text-blue-900 focus:outline-none focus:ring" href="#">
-          Learn More
-        </a>
       </div>
     </div>
   </div>

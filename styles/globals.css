@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    /* opacity: .75; */
+    /* color: white !important; */
+/* } */ 
+
+.slick-prev{
+    margin-top: -32vh;
+    margin-left: 71vw;
+    background-color:black !important;
+    /* margin-left: 40%; */
+    
+}
+
+.slick-next{
+    margin-top: -32vh;
+    margin-right: 5vw; 
+    background-color:black !important;
+}
+
+@media screen and (max-width: 820px) {
+    .slick-prev, .slick-next  {
+     display: none !important;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
