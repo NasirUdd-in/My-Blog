@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 const SingleBook = ({book}) => {
     return (
-        <Card sx={{ maxWidth: 345 }} sx={{ boxShadow: 0 }}>
+        <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
         <CardActionArea>
           <CardMedia
             component="img"

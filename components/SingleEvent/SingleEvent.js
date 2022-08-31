@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 const SingleEvent = ({event}) => {
   return (
-    <Card sx={{ maxWidth: 345 }} sx={{ boxShadow: 0 }}>
+    <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
       <CardMedia
         component="img"
         alt="green iguana"
