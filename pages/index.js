@@ -11,7 +11,7 @@ import Subscribe from "../components/Subscribe/Subscribe";
 import Testimonials from "../components/Testimonials/Testimonials";
 import styles from "../styles/Home.module.css";
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url(&quot;https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap&quot;);
 </style>
 
 export default function Home() {
