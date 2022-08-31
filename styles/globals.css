@@ -14,7 +14,7 @@ body{
 /* } */ 
 
 .slick-prev{
-    margin-top: -32vh;
+    margin-top: -34vh;
     margin-left: 71vw;
     background-color:black !important;
     /* margin-left: 40%; */
@@ -22,7 +22,7 @@ body{
 }
 
 .slick-next{
-    margin-top: -32vh;
+    margin-top: -34vh;
     margin-right: 5vw; 
     background-color:black !important;
 }

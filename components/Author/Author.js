@@ -5,7 +5,12 @@ const Author = () => {
   return (
     <div>
       <h1>About the author</h1>
-      {/* <Image></Image> */}
+      <Image
+                src="/picfive.jpg"
+                alt="Picture of the author"
+                width={100}
+                height={100}
+              ></Image>
       <h2>Katy Liu</h2>
 
       <p>
